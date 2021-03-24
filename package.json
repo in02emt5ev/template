@@ -2,6 +2,7 @@
   "name": "template",
   "version": "1.0.0",
   "description": "Шаблон для верстки",
+  "author": "in02emt5ev",
   "scripts": {
     "build": "gulp build",
     "stylelint": "stylelint src/css/*.css",
@@ -22,5 +23,8 @@
     "stylelint": "13.12.0",
     "stylelint-config-htmlacademy": "0.1.4"
   },
-  "author": "in02emt5ev"
+  "browserslist": [
+    "last 2 version",
+    "Firefox ESR"
+  ]
 }
