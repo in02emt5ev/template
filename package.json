@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "gulp build",
-    "stylelint": "stylelint src/css/*.css",
+    "stylelint": "stylelint source/css/*.css",
     "test": "npm run stylelint"
   },
   "devDependencies": {
