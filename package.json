@@ -30,8 +30,9 @@
     "stylelint-order-htmlacademy": "2.0.3"
   },
   "browserslist": [
-    "last 2 version",
-    "Firefox ESR"
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
   ],
   "engines": {
     "node": "14.17.3"
