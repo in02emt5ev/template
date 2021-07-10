@@ -3,6 +3,10 @@
   "version": "1.1.0",
   "description": "Шаблон для верстки",
   "author": "in02emt5ev",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:in02emt5ev/template.git"
+  },
   "scripts": {
     "build": "gulp build",
     "stylelint": "stylelint src/css/*.css",
