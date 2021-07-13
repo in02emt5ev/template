@@ -1,30 +1,40 @@
 {
   "name": "template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Шаблон для верстки",
   "author": "in02emt5ev",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:in02emt5ev/template.git"
+  },
   "scripts": {
     "build": "gulp build",
-    "stylelint": "stylelint src/css/*.css",
+    "stylelint": "stylelint source/css/*.css",
     "test": "npm run stylelint"
   },
   "devDependencies": {
-    "autoprefixer": "10.2.5",
+    "autoprefixer": "10.3.0",
     "browser-sync": "2.26.14",
     "del": "6.0.0",
     "gulp": "4.0.2",
     "gulp-plumber": "1.2.1",
     "gulp-postcss": "9.0.0",
     "gulp-rename": "2.0.0",
-    "postcss": "8.2.8",
+    "postcss": "8.3.5",
     "postcss-csso": "5.0.0",
     "postcss-import": "14.0.0",
     "postcss-url": "10.1.3",
     "stylelint": "13.12.0",
-    "stylelint-config-htmlacademy": "0.1.4"
+    "stylelint-config-htmlacademy": "0.1.4",
+    "stylelint-order": "4.1.0",
+    "stylelint-order-htmlacademy": "2.0.3"
   },
   "browserslist": [
-    "last 2 version",
-    "Firefox ESR"
-  ]
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "engines": {
+    "node": "14.17.3"
+  }
 }
