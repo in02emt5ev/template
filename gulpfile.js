@@ -54,4 +54,5 @@ gulp.task('server', function () {
   gulp.watch('source/css/**/*.css', gulp.series('css'));
 });
 
-gulp.task('build', gulp.series('clean', 'copy', 'css', 'server'));
+gulp.task('work',  gulp.series('clean', 'copy', 'css', 'server'))
+gulp.task('build', gulp.series('clean', 'copy', 'css'));

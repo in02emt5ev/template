@@ -8,6 +8,7 @@
     "url": "git@github.com:in02emt5ev/template.git"
   },
   "scripts": {
+    "work": "gulp work",
     "build": "gulp build",
     "stylelint": "stylelint source/css/*.css",
     "test": "npm run stylelint"
