@@ -1,11 +1,15 @@
-body {
+.hello-world {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-h1 {
+.hello-world__title {
   font-size: 80px;
   color: tomato;
+}
+
+.hello-world__text {
+  font-size: 32px;
 }
